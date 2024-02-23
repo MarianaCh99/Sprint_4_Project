@@ -23,15 +23,3 @@ if graphic_button:
         
     st.plotly_chart(fig, use_container_width=True)
 
-
-
-build_histogram = st.checkbox('Construir un histograma')
-
-if build_histogram: 
-    st.write('Histograma para la columna odómetro')
-
-
-build_graphic = st.checkbox('Construir un gráfico de dispersión')
-
-if build_graphic: 
-    st.write('Gráfico de dispersión para la columna odómetro')
